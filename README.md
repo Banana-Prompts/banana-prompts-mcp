@@ -27,6 +27,7 @@ Clone the repository or download the files:
 git clone https://github.com/Banana-Prompts/banana-prompts-mcp.git
 cd banana-prompts-mcp
 npm install
+npm run build
 ```
 
 ### 3. Configuration
@@ -40,13 +41,13 @@ Add the following to your `claude_desktop_config.json`:
   "mcpServers": {
     "banana-prompts": {
       "command": "node",
-      "args": ["/path/to/banana-prompts-mcp/index.js"]
+      "args": ["/path/to/banana-prompts-mcp/dist/index.js"]
     }
   }
 }
 ```
 
-Replace `/path/to/banana-prompts-mcp/index.js` with the actual absolute path to the `index.js` file.
+Replace `/path/to/banana-prompts-mcp/dist/index.js` with the actual absolute path to the compiled `dist/index.js` file.
 
 ## Usage
 
