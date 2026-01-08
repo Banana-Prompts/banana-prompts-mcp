@@ -2,7 +2,7 @@
 
 This MCP (Model Context Protocol) server allows you to search for high-quality AI art prompts directly from [Banana Prompts](https://bananaprompts.fun).
 
-Explore a curated collection of Midjourney, Stable Diffusion, and DALL-E prompts to inspire your next creation.
+Explore a curated collection of Nano Banana prompts to inspire your next creation.
 
 ## Features
 
